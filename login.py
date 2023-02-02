@@ -50,7 +50,8 @@ while True:
         break
     else:
         print("Hatalı giriş yaptınız..")
-        continue
+        connection.close()
+        break
 
     
 
